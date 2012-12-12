@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802B01B415FA73C6002A14ED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802B01B315FA73C6002A14ED /* AudioToolbox.framework */; };
+		802C6EC915FBF1520027352D /* fdb_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 802C6EC815FBF1520027352D /* fdb_icon.png */; };
+		807334FB15F2E7E300FBFD9F /* body.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F215F2E7E300FBFD9F /* body.jpg */; };
+		807334FC15F2E7E300FBFD9F /* camille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F315F2E7E300FBFD9F /* camille.jpg */; };
+		807334FD15F2E7E300FBFD9F /* claudine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F415F2E7E300FBFD9F /* claudine.jpg */; };
+		807334FE15F2E7E300FBFD9F /* danielle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F515F2E7E300FBFD9F /* danielle.jpg */; };
+		807334FF15F2E7E300FBFD9F /* elliot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F615F2E7E300FBFD9F /* elliot.jpg */; };
+		8073350015F2E7E300FBFD9F /* farnand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F715F2E7E300FBFD9F /* farnand.jpg */; };
+		8073350115F2E7E300FBFD9F /* gorsson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F815F2E7E300FBFD9F /* gorsson.jpg */; };
+		8073350215F2E7E300FBFD9F /* jos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F915F2E7E300FBFD9F /* jos.jpg */; };
+		8073350315F2E7E300FBFD9F /* valerie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334FA15F2E7E300FBFD9F /* valerie.jpg */; };
 		8094059D15F1AA35006DF4D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8094059C15F1AA35006DF4D8 /* UIKit.framework */; };
 		8094059F15F1AA35006DF4D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8094059E15F1AA35006DF4D8 /* Foundation.framework */; };
 		809405A115F1AA35006DF4D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809405A015F1AA35006DF4D8 /* CoreGraphics.framework */; };
@@ -15,9 +26,24 @@
 		809405AD15F1AA35006DF4D8 /* FaceDeBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 809405AC15F1AA35006DF4D8 /* FaceDeBookAppDelegate.m */; };
 		809405B015F1AA35006DF4D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809405AE15F1AA35006DF4D8 /* MainStoryboard.storyboard */; };
 		809405B315F1AA35006DF4D8 /* FaceDeBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809405B215F1AA35006DF4D8 /* FaceDeBookViewController.m */; };
+		809405BE15F1BE0C006DF4D8 /* PersonneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809405BD15F1BE0C006DF4D8 /* PersonneDetailViewController.m */; };
+		80D7F25D15FA881600BDEE35 /* sound02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80D7F25C15FA881600BDEE35 /* sound02.wav */; };
+		80DC6DB415F9DD0F00A44FA8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DC6DB315F9DD0F00A44FA8 /* AboutViewController.m */; };
+		80DC6DBB15F9E5AD00A44FA8 /* apropos.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DC6DBA15F9E5AD00A44FA8 /* apropos.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		802B01B315FA73C6002A14ED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		802C6EC815FBF1520027352D /* fdb_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fdb_icon.png; sourceTree = "<group>"; };
+		807334F215F2E7E300FBFD9F /* body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = body.jpg; sourceTree = "<group>"; };
+		807334F315F2E7E300FBFD9F /* camille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camille.jpg; sourceTree = "<group>"; };
+		807334F415F2E7E300FBFD9F /* claudine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = claudine.jpg; sourceTree = "<group>"; };
+		807334F515F2E7E300FBFD9F /* danielle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danielle.jpg; sourceTree = "<group>"; };
+		807334F615F2E7E300FBFD9F /* elliot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elliot.jpg; sourceTree = "<group>"; };
+		807334F715F2E7E300FBFD9F /* farnand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = farnand.jpg; sourceTree = "<group>"; };
+		807334F815F2E7E300FBFD9F /* gorsson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorsson.jpg; sourceTree = "<group>"; };
+		807334F915F2E7E300FBFD9F /* jos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jos.jpg; sourceTree = "<group>"; };
+		807334FA15F2E7E300FBFD9F /* valerie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valerie.jpg; sourceTree = "<group>"; };
 		8094059815F1AA35006DF4D8 /* FaceDeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8094059C15F1AA35006DF4D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8094059E15F1AA35006DF4D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +57,12 @@
 		809405AF15F1AA35006DF4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		809405B115F1AA35006DF4D8 /* FaceDeBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceDeBookViewController.h; sourceTree = "<group>"; };
 		809405B215F1AA35006DF4D8 /* FaceDeBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDeBookViewController.m; sourceTree = "<group>"; };
+		809405BC15F1BE0C006DF4D8 /* PersonneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonneDetailViewController.h; sourceTree = "<group>"; };
+		809405BD15F1BE0C006DF4D8 /* PersonneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonneDetailViewController.m; sourceTree = "<group>"; };
+		80D7F25C15FA881600BDEE35 /* sound02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound02.wav; sourceTree = "<group>"; };
+		80DC6DB215F9DD0F00A44FA8 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		80DC6DB315F9DD0F00A44FA8 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		80DC6DBA15F9E5AD00A44FA8 /* apropos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apropos.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802B01B415FA73C6002A14ED /* AudioToolbox.framework in Frameworks */,
 				8094059D15F1AA35006DF4D8 /* UIKit.framework in Frameworks */,
 				8094059F15F1AA35006DF4D8 /* Foundation.framework in Frameworks */,
 				809405A115F1AA35006DF4D8 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +100,7 @@
 		8094059B15F1AA35006DF4D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				802B01B315FA73C6002A14ED /* AudioToolbox.framework */,
 				8094059C15F1AA35006DF4D8 /* UIKit.framework */,
 				8094059E15F1AA35006DF4D8 /* Foundation.framework */,
 				809405A015F1AA35006DF4D8 /* CoreGraphics.framework */,
@@ -77,12 +111,28 @@
 		809405A215F1AA35006DF4D8 /* FaceDeBook */ = {
 			isa = PBXGroup;
 			children = (
+				802C6EC815FBF1520027352D /* fdb_icon.png */,
+				80D7F25C15FA881600BDEE35 /* sound02.wav */,
+				80DC6DBA15F9E5AD00A44FA8 /* apropos.png */,
+				807334F215F2E7E300FBFD9F /* body.jpg */,
+				807334F315F2E7E300FBFD9F /* camille.jpg */,
+				807334F415F2E7E300FBFD9F /* claudine.jpg */,
+				807334F515F2E7E300FBFD9F /* danielle.jpg */,
+				807334F615F2E7E300FBFD9F /* elliot.jpg */,
+				807334F715F2E7E300FBFD9F /* farnand.jpg */,
+				807334F815F2E7E300FBFD9F /* gorsson.jpg */,
+				807334F915F2E7E300FBFD9F /* jos.jpg */,
+				807334FA15F2E7E300FBFD9F /* valerie.jpg */,
 				809405AB15F1AA35006DF4D8 /* FaceDeBookAppDelegate.h */,
 				809405AC15F1AA35006DF4D8 /* FaceDeBookAppDelegate.m */,
 				809405AE15F1AA35006DF4D8 /* MainStoryboard.storyboard */,
 				809405B115F1AA35006DF4D8 /* FaceDeBookViewController.h */,
 				809405B215F1AA35006DF4D8 /* FaceDeBookViewController.m */,
 				809405A315F1AA35006DF4D8 /* Supporting Files */,
+				809405BC15F1BE0C006DF4D8 /* PersonneDetailViewController.h */,
+				809405BD15F1BE0C006DF4D8 /* PersonneDetailViewController.m */,
+				80DC6DB215F9DD0F00A44FA8 /* AboutViewController.h */,
+				80DC6DB315F9DD0F00A44FA8 /* AboutViewController.m */,
 			);
 			path = FaceDeBook;
 			sourceTree = "<group>";
@@ -152,6 +202,18 @@
 			files = (
 				809405A715F1AA35006DF4D8 /* InfoPlist.strings in Resources */,
 				809405B015F1AA35006DF4D8 /* MainStoryboard.storyboard in Resources */,
+				807334FB15F2E7E300FBFD9F /* body.jpg in Resources */,
+				807334FC15F2E7E300FBFD9F /* camille.jpg in Resources */,
+				807334FD15F2E7E300FBFD9F /* claudine.jpg in Resources */,
+				807334FE15F2E7E300FBFD9F /* danielle.jpg in Resources */,
+				807334FF15F2E7E300FBFD9F /* elliot.jpg in Resources */,
+				8073350015F2E7E300FBFD9F /* farnand.jpg in Resources */,
+				8073350115F2E7E300FBFD9F /* gorsson.jpg in Resources */,
+				8073350215F2E7E300FBFD9F /* jos.jpg in Resources */,
+				8073350315F2E7E300FBFD9F /* valerie.jpg in Resources */,
+				80DC6DBB15F9E5AD00A44FA8 /* apropos.png in Resources */,
+				80D7F25D15FA881600BDEE35 /* sound02.wav in Resources */,
+				802C6EC915FBF1520027352D /* fdb_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +227,8 @@
 				809405A915F1AA35006DF4D8 /* main.m in Sources */,
 				809405AD15F1AA35006DF4D8 /* FaceDeBookAppDelegate.m in Sources */,
 				809405B315F1AA35006DF4D8 /* FaceDeBookViewController.m in Sources */,
+				809405BE15F1BE0C006DF4D8 /* PersonneDetailViewController.m in Sources */,
+				80DC6DB415F9DD0F00A44FA8 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +344,7 @@
 				809405B815F1AA35006DF4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

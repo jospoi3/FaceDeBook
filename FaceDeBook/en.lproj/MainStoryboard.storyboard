@@ -1,24 +1,214 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="zp6-9d-VqE">
     <dependencies>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
+        <!--Face De Book View Controller - FaceDeBook-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="FaceDeBookViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="P74-Am-z9J">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PersonneCell" id="LBQ-Ec-kdQ">
+                                        <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="10" y="1" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <segue destination="zta-Yp-aEK" kind="push" identifier="showPersonneDetail" id="z8v-3d-BGP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="3WA-vG-Hfl"/>
+                                    <outlet property="delegate" destination="2" id="eHV-od-6fa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="FaceDeBook" id="ZN9-LA-Uof"/>
+                    <connections>
+                        <outlet property="tableView" destination="P74-Am-z9J" id="U5U-kd-nhl"/>
+                    </connections>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="1435" y="182"/>
+        </scene>
+        <!--Personne Detail View Controller-->
+        <scene sceneID="v5J-tN-491">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fua-vd-Dgp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="zta-Yp-aEK" customClass="PersonneDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wNe-nl-qny">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="AZE-qn-rFO">
+                                <rect key="frame" x="33" y="20" width="186" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ageLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="GEi-Ip-PDU">
+                                <rect key="frame" x="81" y="51" width="103" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Âge :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Ugs-kK-c5g">
+                                <rect key="frame" x="33" y="51" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" text="bioLabel" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="10" id="PU5-jb-pVw">
+                                <rect key="frame" x="33" y="238" width="262" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="INO-Hf-vGx">
+                                <rect key="frame" x="33" y="80" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lx4-te-3lm"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="GEi-Ip-PDU" id="zej-vq-APz"/>
+                        <outlet property="bioLabel" destination="PU5-jb-pVw" id="4Lt-fH-8D2"/>
+                        <outlet property="personneLabel" destination="AZE-qn-rFO" id="xhM-o3-E5e"/>
+                        <outlet property="thumbnailImageView" destination="INO-Hf-vGx" id="pad-8M-e0A"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1899" y="182"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wC2-Pj-BF0">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IfU-ZJ-bBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="1Ej-YK-Lq4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="Hu4-re-Ta1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WIj-vk-bpg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="uVY-pA-Frw"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="987" y="182"/>
+        </scene>
+        <!--Navigation Controller - À propos-->
+        <scene sceneID="ZnA-jG-JCV">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOz-fj-oNy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="cFw-zO-ZHv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="À propos" image="apropos.png" id="bku-Cg-4kj"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lZf-or-uCI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kjx-Ux-RA6" kind="relationship" relationship="rootViewController" id="k9m-AA-OeZ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="987" y="851"/>
+        </scene>
+        <!--About View Controller - À propos de FaceDeBook-->
+        <scene sceneID="Yoa-6o-HbO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U5f-WV-ncc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="kjx-Ux-RA6" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wne-9D-cs7">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="MaE-A3-ZTz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="À propos de FaceDeBook" id="srT-ro-z5a"/>
+                    <connections>
+                        <outlet property="webView" destination="MaE-A3-ZTz" id="qID-Ed-6ox"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1435" y="851"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UB7-qM-GZ0">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jvw-oY-67S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="zp6-9d-VqE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nWS-cz-GvE">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1Ej-YK-Lq4" kind="relationship" relationship="viewControllers" id="N2e-0N-jYy"/>
+                        <segue destination="cFw-zO-ZHv" kind="relationship" relationship="viewControllers" id="Wuk-Hl-gWv"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="301" y="262"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="apropos.png" width="45" height="30"/>
+    </resources>
+    <classes>
+        <class className="AboutViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AboutViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="FaceDeBookViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FaceDeBookViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="PersonneDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PersonneDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="bioLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="personneLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbnailImageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

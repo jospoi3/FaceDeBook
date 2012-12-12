@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
-@interface FaceDeBookViewController : UIViewController
+@interface FaceDeBookViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+    
+    SystemSoundID toneSSIDs[1];
+    
+}
+
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end
