@@ -18,6 +18,7 @@
 		8073350115F2E7E300FBFD9F /* gorsson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F815F2E7E300FBFD9F /* gorsson.jpg */; };
 		8073350215F2E7E300FBFD9F /* jos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334F915F2E7E300FBFD9F /* jos.jpg */; };
 		8073350315F2E7E300FBFD9F /* valerie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807334FA15F2E7E300FBFD9F /* valerie.jpg */; };
+		807539B016A309440043D4F5 /* sid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807539AF16A309440043D4F5 /* sid.jpg */; };
 		8094059D15F1AA35006DF4D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8094059C15F1AA35006DF4D8 /* UIKit.framework */; };
 		8094059F15F1AA35006DF4D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8094059E15F1AA35006DF4D8 /* Foundation.framework */; };
 		809405A115F1AA35006DF4D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809405A015F1AA35006DF4D8 /* CoreGraphics.framework */; };
@@ -27,6 +28,7 @@
 		809405B015F1AA35006DF4D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809405AE15F1AA35006DF4D8 /* MainStoryboard.storyboard */; };
 		809405B315F1AA35006DF4D8 /* FaceDeBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809405B215F1AA35006DF4D8 /* FaceDeBookViewController.m */; };
 		809405BE15F1BE0C006DF4D8 /* PersonneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809405BD15F1BE0C006DF4D8 /* PersonneDetailViewController.m */; };
+		80A9569E1687D8270094C197 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A9569D1687D8270094C197 /* Default-568h@2x.png */; };
 		80D7F25D15FA881600BDEE35 /* sound02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80D7F25C15FA881600BDEE35 /* sound02.wav */; };
 		80DC6DB415F9DD0F00A44FA8 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DC6DB315F9DD0F00A44FA8 /* AboutViewController.m */; };
 		80DC6DBB15F9E5AD00A44FA8 /* apropos.png in Resources */ = {isa = PBXBuildFile; fileRef = 80DC6DBA15F9E5AD00A44FA8 /* apropos.png */; };
@@ -44,6 +46,7 @@
 		807334F815F2E7E300FBFD9F /* gorsson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorsson.jpg; sourceTree = "<group>"; };
 		807334F915F2E7E300FBFD9F /* jos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jos.jpg; sourceTree = "<group>"; };
 		807334FA15F2E7E300FBFD9F /* valerie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valerie.jpg; sourceTree = "<group>"; };
+		807539AF16A309440043D4F5 /* sid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sid.jpg; sourceTree = "<group>"; };
 		8094059815F1AA35006DF4D8 /* FaceDeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8094059C15F1AA35006DF4D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8094059E15F1AA35006DF4D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +62,7 @@
 		809405B215F1AA35006DF4D8 /* FaceDeBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDeBookViewController.m; sourceTree = "<group>"; };
 		809405BC15F1BE0C006DF4D8 /* PersonneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonneDetailViewController.h; sourceTree = "<group>"; };
 		809405BD15F1BE0C006DF4D8 /* PersonneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonneDetailViewController.m; sourceTree = "<group>"; };
+		80A9569D1687D8270094C197 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		80D7F25C15FA881600BDEE35 /* sound02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound02.wav; sourceTree = "<group>"; };
 		80DC6DB215F9DD0F00A44FA8 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		80DC6DB315F9DD0F00A44FA8 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 		8094058D15F1AA35006DF4D8 = {
 			isa = PBXGroup;
 			children = (
+				80A9569D1687D8270094C197 /* Default-568h@2x.png */,
 				809405A215F1AA35006DF4D8 /* FaceDeBook */,
 				8094059B15F1AA35006DF4D8 /* Frameworks */,
 				8094059915F1AA35006DF4D8 /* Products */,
@@ -111,6 +116,7 @@
 		809405A215F1AA35006DF4D8 /* FaceDeBook */ = {
 			isa = PBXGroup;
 			children = (
+				807539AF16A309440043D4F5 /* sid.jpg */,
 				802C6EC815FBF1520027352D /* fdb_icon.png */,
 				80D7F25C15FA881600BDEE35 /* sound02.wav */,
 				80DC6DBA15F9E5AD00A44FA8 /* apropos.png */,
@@ -175,7 +181,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FaceDeBook;
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jocelyn Poitras";
 			};
 			buildConfigurationList = 8094059215F1AA35006DF4D8 /* Build configuration list for PBXProject "FaceDeBook" */;
@@ -214,6 +220,8 @@
 				80DC6DBB15F9E5AD00A44FA8 /* apropos.png in Resources */,
 				80D7F25D15FA881600BDEE35 /* sound02.wav in Resources */,
 				802C6EC915FBF1520027352D /* fdb_icon.png in Resources */,
+				80A9569E1687D8270094C197 /* Default-568h@2x.png in Resources */,
+				807539B016A309440043D4F5 /* sid.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -273,10 +285,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -285,18 +301,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

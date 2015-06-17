@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PersonneDetailViewController : UIViewController
+@interface PersonneDetailViewController : UIViewController {
+     IBOutlet UIScrollView * Scroller;
+}
 
 @property (nonatomic, strong) IBOutlet UILabel *personneLabel;
 @property (nonatomic, strong) NSString *personneName;

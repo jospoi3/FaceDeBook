@@ -27,7 +27,6 @@
 @synthesize thumbnailImageView;
 
 
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -41,6 +40,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    // Scroller
+   // [Scroller setScrollEnabled:YES];
+   // [Scroller setContentSize:CGSizeMake(320, 1000)];
     
     // Set the Label text with the selected personne
     personneLabel.text = personneName;

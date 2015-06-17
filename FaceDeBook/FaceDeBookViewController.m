@@ -28,24 +28,27 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+   
+    
     
     // Initialize table data
-    personnes = [NSArray arrayWithObjects:@"Jocelyn Poitras", @"Danielle Richard", @"Camille Richard-Poitras", @"Elliot Richard-Poitras", @"Valérie Marin", @"Claudine Marin", @"Farnand LaBroutte", @"Gorsson LaBroutte", nil];
+    personnes = [NSArray arrayWithObjects:@"Jocelyn Poitras", @"Danielle Richard", @"Camille Richard-Poitras", @"Elliot Richard-Poitras", @"Valérie Marin", @"Claudine Marin", @"Farnand LaBroutte", @"Gorsson LaBroutte", @"Sid LeVicieux",nil];
     
     // Initialize table data
-    thumbnails = [NSArray arrayWithObjects:@"jos.jpg", @"danielle.jpg", @"camille.jpg", @"elliot.jpg", @"valerie.jpg", @"claudine.jpg", @"farnand.jpg", @"gorsson.jpg", nil];
+    thumbnails = [NSArray arrayWithObjects:@"jos.jpg", @"danielle.jpg", @"camille.jpg", @"elliot.jpg", @"valerie.jpg", @"claudine.jpg", @"farnand.jpg", @"gorsson.jpg", @"sid.jpg",nil];
     
-    ages = [NSArray arrayWithObjects:@"46 ans", @"46 ans", @"9 ans", @"3 ans", @"9 ans", @"11 ans", @"49 ans", @"7 ans", nil];
+    ages = [NSArray arrayWithObjects:@"46 ans", @"46 ans", @"9 ans", @"3 ans", @"9 ans", @"11 ans", @"49 ans", @"7 ans", @"20 ans",nil];
     
     bios = [NSArray arrayWithObjects:
             @"C'est le seul et unique mâle alpha du 1921 rue des Pins à Lawrenceville.",
-            @"C'est elle qui contrôle la pensée de tous les habitants de la rue des Pins ainsi que de la famille LaBroutte",
+            @"C'est elle qui contrôle la pensée de tous les habitants de la rue des Pins ainsi que de la famille LaBroutte. C'est elle qui contrôle la pensée de tous les habitants de la rue des Pins ainsi que de la famille LaBroutte",
             @"La fillette des fillette de toutes les fillettes, Camille peut transformer une simple femme en maman et un coeur en un puissant aimant",
             @"Aussi connu sous le nom de Boulin de Grain, il est le petit aspirant mâle alpha, mais papa ne laisse pas sa place si facilement...",
             @"Mademoiselle Valérie, soeur de Claudine et amie de Camille. On la voit ici avec son plus beau sourire !",
-            @"Mademoiselle Claudine, soeur de Valérie et amie de Camille. Pnb la voit ici avec ses beaux yeux doux...",
-            @"Père de Gorsson et fermier du rang LaBroutte, Farnand lance du caca dans ses temps libres et aime également séduire les jolies créatures du ranf LaBroutte en leur décochant des becs mouillés.",
+            @"Mademoiselle Claudine, soeur de Valérie et amie de Camille. On la voit ici avec ses beaux yeux doux...",
+            @"Père de Gorsson et fermier du rang LaBroutte, Farnand lance du caca dans ses temps libres et aime également séduire les jolies créatures du rang LaBroutte en leur décochant des becs mouillés.",
             @"Fils de Farnand et assistant lanceur de caca en chef. Gorsson est un être affable malgré sa simplicité d'esprit...",
+            @"Bassiste des Sex Pistols et cousin illégitime de Gorsson LaBroutte, il revient parfois sur le rang LaBroutte lancer des crottes de nez...",
             nil];
 }
 

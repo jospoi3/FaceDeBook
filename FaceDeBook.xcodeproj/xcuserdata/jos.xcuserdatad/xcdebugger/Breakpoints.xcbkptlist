@@ -34,20 +34,7 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "FaceDeBook/PersonneDetailViewController.m"
-         timestampString = "368389067.77762"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "49"
-         endingLineNumber = "49"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "FaceDeBook/PersonneDetailViewController.m"
-         timestampString = "368389067.77762"
+         timestampString = "380255786.076697"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "52"
@@ -56,15 +43,28 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FaceDeBook/PersonneDetailViewController.m"
+         timestampString = "380255786.076697"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "55"
+         endingLineNumber = "55"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "FaceDeBook/FaceDeBookViewController.m"
-         timestampString = "368829092.887178"
+         timestampString = "379784759.356092"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "123"
-         endingLineNumber = "123"
+         startingLineNumber = "126"
+         endingLineNumber = "126"
          landmarkName = "-prepareForSegue:sender:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -97,11 +97,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "FaceDeBook/FaceDeBookViewController.m"
-         timestampString = "368829092.887178"
+         timestampString = "379784759.356092"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "97"
-         endingLineNumber = "97"
+         startingLineNumber = "100"
+         endingLineNumber = "100"
          landmarkName = "-initWithCoder:"
          landmarkType = "5">
       </FileBreakpoint>
